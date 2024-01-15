@@ -27,7 +27,9 @@
 
     "outDir": "public",
     "rootDir": "src",
-    "composite": true
+    "composite": true,
+
+    "types": ["@webgpu/types"]
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
